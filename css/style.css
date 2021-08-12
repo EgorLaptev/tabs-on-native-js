@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.tabs {
+    position: relative;
+    width: 750px;
+    height: 500px;
+}
+
+.tabs__tab {
+    margin-top: 50px;
+    position: absolute;
+    inset: 0;
+    background: #eee;
+    display: none;
+}
+
+.tabs__tab_active {
+    display: block;
+}
+
+.tabs__button_active {
+    background: #aaa;
+    color: white;
+}
